@@ -1,43 +1,33 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>User Story Manager</title>
+        <title>My User Stories</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
         <header>
-            <h1>User Story Manager</h1>
+            <h1>My user stories</h1>
         </header>
 
 
-        <form action="https://www.nextpoint.co.uk/test.php" method="post">
+        <form method="get">
             <fieldset>
                 <legend>User Stories</legend>
-                <input name="id" hidden value="1" /> 
-                <ul>
-                    <li><label>Type of user: 
-                        <select name="User" required>
-                            <option> </option>
-                            <option value="Project Manager">Project Manager</option>
-                            <option value="Employee">Employee</option>
-                            <option value="Director">Director</option>
-                            <option value="Software Director">Software Developer</option>
-                            <option value="Customer">Customer</option>
-                        </select>
-                    </label></li>
-                    <li><label>Task:
-                        <textarea minlength="20" maxlength="250" required name="task" style="resize: none;" rows="5" cols="25"></textarea>
-                    </label></li>
-                    <li><label>Goal:
-                        <textarea minlength="20" maxlength="250" required name="goal" style="resize: none;" rows="5" cols="25"></textarea>
-                    </label></li>
-                </ul>
-
-                <button>Submit</button>
-            </fieldset>
-        </form>
-
+                <table>
+                    <tr>
+                        <th>User Stroy ID</th>
+                        <th>As a &lt;type of user&gt;</th>
+                        <th>I want to &lt;perform a task&gt;</th>
+                        <th>To acheive &lt;some goal&gt;</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Project Manager</td>
+                        <td>look at my employee's timesheet</td>
+                        <td>to confirm the times worked</td>
+                    </tr>
+                </table>    
 
         <footer>
             <p>My footer content</p>
