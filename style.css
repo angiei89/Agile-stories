@@ -6,7 +6,37 @@ header {
 
 }
 
+fieldset {
+
+    width:40%; 
+    border:5px groove; 
+    padding:10px;
+}
+
 h1 {
 
     font: 40pt Courier New;
 }
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    float:left;
+    display:block;
+    width:100%;
+    text-align:center;
+    padding:20px;
+}
+
+button {
+    transition-duration: 0.4s;
+    background-color: rgb(146, 161, 194); 
+    padding:10px;
+  }
+  
+button:hover {
+    background-color: #04AA6D;
+    color: white;
+  }
