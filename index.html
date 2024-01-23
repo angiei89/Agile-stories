@@ -12,7 +12,7 @@
 
 
         <form method="get">
-            <fieldset id="main">
+            <fieldset>
                 <legend>User Stories</legend>
                 <input name="id" hidden value="1" /> 
                 <ul>
@@ -27,17 +27,19 @@
                         </select>
                     </label></li>
                     <li><label>Task:<br /><br />
-                        <textarea minlength="20" maxlength="250" required name="task" style="resize: none;" rows="8"></textarea>
+                        <textarea minlength="20" maxlength="250" required name="task" style="resize: none;" rows="8" cols="50" placeholder="Add text here..."></textarea>
                     </label></li>
                     <li><label>Goal:<br /><br />
-                        <textarea minlength="20" maxlength="250" required name="goal" style="resize: none;" rows="8"></textarea>
+                        <textarea minlength="20" maxlength="250" required name="goal" style="resize: none;" rows="8" cols="50" placeholder="Add text here..."
+                        ></textarea>
                     </label></li>
-                    <li><button>Submit</button></li>
+                    <li><button onclick="myfunction()">Submit</button></li>
                 </ul>
 
                 
             </fieldset>
         </form>
+
 
         <footer>
             <p>My footer content</p>
