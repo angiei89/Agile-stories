@@ -7,7 +7,13 @@ header {
 }
 
 
+html {
+    outline: 0;
+    
+    
 
+
+}
 
 
 
@@ -42,16 +48,40 @@ h1 {
 
 
 
-ul {
+nav ul {
     list-style-type: none;
+}
+
+nav {
+
+    background-color:rgb(3, 7, 14);
+
 }
 
 
 
+nav {
+    background-color:rgb(105, 143, 224);
+    text-align: center;
+    text-decoration: none;
+    padding: 50px;
 
+}
 
+nav  a{
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 17px;
 
-li {
+}
+nav a:hover{
+    background-color: rgb(60, 99, 182);
+    color: white;
+}
+
+li{
     float:left;
     display:block;
     width:100%;
