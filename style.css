@@ -12,6 +12,19 @@ header {
 
 }
 
+.logo{
+    height: 20em;
+    width: 20em;
+    display: inline;
+    float: right;
+    overflow: auto;
+}
+.hidden{
+    overflow: auto;
+
+
+}
+
 
 html {
     outline: 0;
