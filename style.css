@@ -9,6 +9,7 @@ header {
 
 html {
     outline: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     
     
 
@@ -70,25 +71,11 @@ h1 {
 
 
 
-
-
-nav ul {
-    list-style-type: none;
-}
-
-nav {
-
-    background-color:rgb(3, 7, 14);
-
-}
-
-
-
 nav {
     background-color:rgb(105, 143, 224);
     text-align: center;
     text-decoration: none;
-    padding: 50px;
+    padding: 40px;
 
 }
 
@@ -104,6 +91,12 @@ nav a:hover{
     background-color: rgb(60, 99, 182);
     color: white;
 }
+nav hidden a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+}
 
 li{
     float:left;
@@ -111,6 +104,7 @@ li{
     width:100%;
     text-align:center;
     padding:20px;
+    background-color: black;
 }
 
 
