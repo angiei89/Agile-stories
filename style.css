@@ -89,4 +89,32 @@ button:hover {
 footer {
     margin-top: 2em;
     background-color: burlywood;
-}  
+}
+
+table {
+    background: white;
+    display: flex;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+tr:nth-child(even) {background-color: #cf9acc;}
+
+tr:hover {background-color: #c850c0;}
+
+td, th {
+    border: 1px solid purple;
+    padding: 8px;
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #997d97;
+    color: white; 
+}
+
+.stories {
+    border: purple;
+}
