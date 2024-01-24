@@ -147,7 +147,6 @@ footer {
 
 table {
     background: white;
-    display: flex;
     border-collapse: collapse;
     width: 100%;
 }
