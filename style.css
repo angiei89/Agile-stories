@@ -6,6 +6,10 @@ header {
 
 }
 
+.hidden {
+    display: none;
+}
+
 .main {
 
     width:40%; 
