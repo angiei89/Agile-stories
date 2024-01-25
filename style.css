@@ -93,6 +93,12 @@ header h1 {
     font: 40pt Courier New;
 }
 
+@media screen and (max-width:700px){
+    nav{
+        flex-direction: column;
+        background-color: #d6d3e0;
+    }
+}
 
 
 nav {
@@ -100,6 +106,8 @@ nav {
     text-align: center;
     text-decoration: none;
     padding: 40px;
+    display:block;
+    overflow:hidden;
 
 }
 
