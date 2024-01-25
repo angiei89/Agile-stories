@@ -144,6 +144,7 @@ nav hidden a{
 
 }
 
+<<<<<<< HEAD
 nav a.active{
     background-color: #c850c0;
     color: white;
@@ -151,6 +152,12 @@ nav a.active{
 
 
 
+=======
+textarea {
+    width:80%;
+    height:10em;
+}
+>>>>>>> fac807ee7e10a50d90cc9457e27eb28addf385d7
 
 
 button {
@@ -168,7 +175,29 @@ button:hover {
     background-color: #DFE5D6;
   }
 
+.information {
+    font-size:1.5em;
+}
 
+.information .infotext {
+    visibility:hidden;
+    position:absolute;
+    z-index:1;
+    text-transform:none;
+    letter-spacing: 0;
+    width:20%;
+    font-size: 0.6em;
+    text-align: center;
+    padding: 5px 0;
+    background-color:#B0A7D2;
+    color:#2D1B32;
+    border-radius:0.2em;
+
+}
+
+.information:hover .infotext {
+    visibility: visible;
+}
 
 
 
