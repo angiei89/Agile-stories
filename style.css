@@ -7,14 +7,14 @@ header {
 
     background-color: #CCC7E0;
     padding:10px 0px 10px 50px;
-    margin-bottom:50px;
+    margin-bottom:5px;
     color: #2D1B32;
 
 }
 
 .logo{
-    height: 20em;
-    width: 20em;
+    height: 8em;
+    width: 8em;
     display: inline;
     float: right;
     overflow: auto;
@@ -27,7 +27,8 @@ header {
 .clearfix::after{
     content: "";
     clear: both;
-    display: table;
+    display: flex;
+    overflow: hidden;
 
 }
 
