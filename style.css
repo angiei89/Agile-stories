@@ -158,8 +158,16 @@ button:hover {
 
 
 footer {
+    text-align: center;
     margin-top: 2em;
-    background-color: #B0A7D2;
+    background-color: #d2cce6;
+    transform: translateY(-50%);
+    transition: transform 0.2s;
+}
+
+footer:hover{
+    background-color: #997d97;
+    transform: translateY(-50%) scale(1.2);
 }
 
 table {
