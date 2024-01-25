@@ -94,12 +94,25 @@ header h1 {
     font: 40pt Courier New;
 }
 
-@media screen and (max-width:700px){
+@media screen and (max-width:1700px){
     nav{
         flex-direction: column;
         background-color: #d6d3e0;
     }
 }
+
+@media screen and (max-width:600px){
+    nav.hidden {
+        position: absolute;
+        right: 0;
+        top: 0;
+        float: none;
+        display: block;
+        text-align: left;
+
+    }
+}
+
 
 
 nav {
@@ -130,6 +143,12 @@ nav hidden a{
     left: 50%;
 
 }
+
+nav a.active{
+    background-color: #c850c0;
+    color: white;
+}
+
 
 
 
