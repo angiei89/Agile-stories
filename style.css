@@ -12,6 +12,26 @@ header {
 
 }
 
+.logo{
+    height: 20em;
+    width: 20em;
+    display: inline;
+    float: right;
+    overflow: auto;
+}
+.hidden{
+    float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+
+
+}
+
 
 html {
     outline: 0;
