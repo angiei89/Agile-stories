@@ -55,6 +55,7 @@ form li {
     margin:1em 0;
     padding:1em 0;
     border-radius:1em;
+    display:block;
 }
 
 li label {
@@ -82,6 +83,8 @@ nav {
     text-align: center;
     text-decoration: none;
     padding: 40px;
+    display:block;
+    overflow:hidden;
 
 }
 
@@ -89,8 +92,8 @@ nav  a{
     float: left;
     text-align: center;
     text-decoration: none;
-    padding: 10px;
     font-size: 17px;
+    padding:20px;
 
 }
 nav a:hover{
@@ -102,15 +105,6 @@ nav hidden a{
     top: 50%;
     left: 50%;
 
-}
-
-li{
-    float:left;
-    display:block;
-    width:100%;
-    text-align:center;
-    padding:20px;
-    background-color: black;
 }
 
 
@@ -147,6 +141,7 @@ footer {
 
 table {
     background: white;
+    display: flex;
     border-collapse: collapse;
     width: 100%;
 }
